@@ -65,7 +65,10 @@ button:focus {
 }
 
 .main {
-  background-image: inear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/img-6.jpg);
   background-color: #2e2f42;
   padding: 188px 0 188px 0;
@@ -354,6 +357,7 @@ header > div {
   justify-content: center;
   height: 112px;
   background-color: #f4f4fd;
-  border-radius: 1px solid #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   margin-bottom: 8px;
 }
