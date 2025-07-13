@@ -185,7 +185,9 @@ button:focus {
 }
 
 .portfolio-card:hover {
-  transform: translateY(0%);
+  .portfolio-card-par {
+    transform: translateY(0%);
+  }
 }
 
 .name-category-container {
@@ -446,7 +448,6 @@ header > div {
 .footer-social-media-list-elem {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-media-list-link {
@@ -457,6 +458,7 @@ header > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-media-list-link:hover,
