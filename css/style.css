@@ -179,6 +179,8 @@ button:focus {
 
 .portfolio-card {
   flex-basis: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .name-category-container {
@@ -387,4 +389,8 @@ header > div {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: #404bbf;
+}
+
+.social-media-link-icon {
+  fill: #f4f4fd;
 }
