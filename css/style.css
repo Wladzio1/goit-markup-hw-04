@@ -395,6 +395,7 @@ header > div {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .social-media-list-item {
